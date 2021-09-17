@@ -53,5 +53,19 @@ public class Oppg2 {
 		System.out.println();
 
 	}
+	
+	
+	public static void utskriftAlle(List<Ansatt> ansatte) {
+        System.out.print("[");
+        for (int i = 0; i<ansatte.size(); i++) {
+            System.out.print(ansatte.get(i).toString());
+            if (i!=ansatte.size()-1) {
+                System.out.print(",");
+            } else {
+                System.out.print("]");
+			}
+			System.out.println();
+		}
+	}
 
 }
