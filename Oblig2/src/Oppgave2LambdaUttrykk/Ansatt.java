@@ -59,7 +59,7 @@ public class Ansatt {
 	@Override
 	public String toString() {
 		return "[fornavn=" + fornavn + ", etternavn=" + etternavn + ", Kjonn=" + Kjonn + ", Stilling=" + Stilling
-				+ ", aarslonn=" + aarslonn + "]\n";
+				+ ", aarslonn=" + aarslonn + "]";
 	}
 
 }
